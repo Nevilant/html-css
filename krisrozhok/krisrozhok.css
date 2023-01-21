@@ -20,12 +20,27 @@ h2.line2 {
 
 a.header-links {
     font-size: 32px;
+    padding-left: 28px;
     text-decoration: none;
-    padding-left: 5%;
+    font-weight:bolder;
 }
-p.center-links {
+
+a.header-links:visited,
+a.header-links:active,
+a.header-links:hover {
+    text-decoration: none;
+    color: black;
+}
+
+p.header-links {
     text-align: center;
     padding: 28px;
+}
+
+a.publication {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
 }
 
 blockquote.header_title {
@@ -33,10 +48,4 @@ blockquote.header_title {
     text-align: center;
     background-color: black;
     border-radius: 10px;
-}
-
-a.publication {
-    font-weight: bold;
-    font-size: 24px;
-    text-decoration: none;
 }
