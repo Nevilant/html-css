@@ -32,9 +32,14 @@ a.header-links:hover {
     color: black;
 }
 
-p.header-links {
+p.header-links-box {
     text-align: center;
     padding: 28px;
+}
+
+p.pub {
+    width: 350px;
+    
 }
 
 a.publication {
