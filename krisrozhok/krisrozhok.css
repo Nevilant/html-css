@@ -34,12 +34,13 @@ a.header-links:hover {
 
 p.header-links-box {
     text-align: center;
-    padding: 28px;
+    padding: 20px;
 }
 
 p.pub {
     width: 350px;
-    
+    display:inline-table;
+    padding-left: 15px;
 }
 
 a.publication {
@@ -48,7 +49,7 @@ a.publication {
     text-decoration: none;
 }
 
-blockquote.header_title {
+blockquote.header-title {
     color: pink;
     text-align: center;
     background-color: black;
