@@ -3,5 +3,26 @@ body {
 }
 
 .header-menu {
-    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-menu ul {
+    
+}
+
+.header-menu a {
+    display: block;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.header-menu li {
+    float: left;
+    margin-right: 10px;
 }
